@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     logger.log({"data": "home"});
-    res.send({"data": "home"});
+    res.send({"data": "home", "status": 200});
 });
 
 
